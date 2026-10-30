@@ -1,0 +1,14 @@
+{
+  "memorycore": {
+    "repository": "https://github.com/Kiyoraka/Project-AI-MemoryCore",
+    "commit": "57bafc82dac8f038be07370f76353879669fb048"
+  },
+  "superpowers": {
+    "repository": "https://github.com/obra/superpowers",
+    "installed_revision": "not recorded by original installer"
+  },
+  "antislop": {
+    "repository": "https://github.com/miqdadbadjuber/anti-slop",
+    "installed_version": "3.2.24"
+  }
+}

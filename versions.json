@@ -1,0 +1,172 @@
+{
+  "skills": {
+    "antislop": {
+      "version": "1.0.0",
+      "sha256": "b61fbb08ae8d82983763a785387f13706a9a610ab56a45b0313af13e06452a50"
+    },
+    "antislop-code": {
+      "version": "1.0.0",
+      "sha256": "122e9b3c269edae618bd80d54fb11a472b2aaca9d61b42178b5db7263adb9c07"
+    },
+    "antislop-copywriting": {
+      "version": "1.0.0",
+      "sha256": "9b936c8fa8bdc3387e27372dbaf1c59770d842f55ba02437e756454d782af64a"
+    },
+    "antislop-human": {
+      "version": "1.0.0",
+      "sha256": "b64a7b3f1b2dcab82e36f7fc582c52acf7ecaaa98c8ee9ebaeb4296c711255a6"
+    },
+    "antislop-layoutmobile": {
+      "version": "1.0.0",
+      "sha256": "7ebcf9ce163952266b5a24d47197a61247ce4af107e7b2d61904f04587f2887f"
+    },
+    "antislop-ui": {
+      "version": "1.0.0",
+      "sha256": "b238684061078e1ac0587d180f56b8c64699ec704575421b686c166d0c14888f"
+    },
+    "brainstorming": {
+      "version": "1.0.0",
+      "sha256": "c7df2e2fbd0ee30184f631f0ae196a6b591cec122b75a40c93455d947f215a67"
+    },
+    "diagnosing-superpowers": {
+      "version": "1.0.0",
+      "sha256": "41d5660b88d14facf891305fc9d0edf6ceca4ce642679d449b7b03d64ad3471c"
+    },
+    "dispatching-parallel-agents": {
+      "version": "1.0.0",
+      "sha256": "1acb899b23c2bdb5af5961e7b97ba43fb2a5593822db755747ef3d5db9f825a4"
+    },
+    "executing-plans": {
+      "version": "1.0.0",
+      "sha256": "51dc855ca9759849339dfcc67334c47bdf05b623cc241e500f70289907917b7a"
+    },
+    "finishing-a-development-branch": {
+      "version": "1.0.0",
+      "sha256": "1da9182001d887c0fb8c62aeee35c8f65b438b32a30b79104baedcca9e0ebef6"
+    },
+    "memorycore": {
+      "version": "1.0.0",
+      "sha256": "2d25dbd20bfa37f986dcd8072c9ad856f77fc69c742e568186ff52f5b1c44496"
+    },
+    "memorycore-auto-commit": {
+      "version": "1.0.0",
+      "sha256": "6200c4f68840431697aad2760bef764ca98bde7175dd3017f4b82a7f23575c59"
+    },
+    "memorycore-check-reminders": {
+      "version": "1.0.0",
+      "sha256": "32232877f0c360eef4cc6ca7a434e3fcccd6f32674dc3954c6cb6e9249187546"
+    },
+    "memorycore-forge-skill": {
+      "version": "1.0.0",
+      "sha256": "68f3f2989c3ad6c307eb3f2547f14d33c79bf5b849a56f673b3315bef7f60b12"
+    },
+    "memorycore-image-generation": {
+      "version": "1.0.0",
+      "sha256": "0d20afb7735dc35ced30ecb4be1fba7debc3615f22f4d10f1332792683c9b0a0"
+    },
+    "memorycore-image-prompt": {
+      "version": "1.0.0",
+      "sha256": "c29a8fffabd12dd1d911ef3dd8c39a8129948bb20d93b294f7700aa8b1c1397a"
+    },
+    "memorycore-interactive-story": {
+      "version": "1.0.0",
+      "sha256": "bfaf49c6f3cf2111f4c8853265e45de09ee6482516c23b2ab8e1da8f50deb95c"
+    },
+    "memorycore-library": {
+      "version": "1.0.0",
+      "sha256": "4672fdf4b71fe8148f00442e0614cb5bea2438b42b0eec04a7c65fee16f78095"
+    },
+    "memorycore-log-decision": {
+      "version": "1.0.0",
+      "sha256": "a410bba8fdc4a1bb9b637b4e9c460b5dda2c72954813a559280b2417854fa092"
+    },
+    "memorycore-manage-project": {
+      "version": "1.0.0",
+      "sha256": "a561f4c46ad96515401e1a8363a6c827d53950c1dc71ec80429f9c981297c18c"
+    },
+    "memorycore-memory-compaction": {
+      "version": "1.0.0",
+      "sha256": "f6b2176c285129fcb809aea41ca520d213e5a85902d3c2f9e91a1943b7a52064"
+    },
+    "memorycore-mulahazah": {
+      "version": "1.0.0",
+      "sha256": "7e51daf5971df7ee654eb0ef276255352de560c46b99b7d63b1e03d80a13f3dd"
+    },
+    "memorycore-observation": {
+      "version": "1.0.0",
+      "sha256": "15c299300ae8b37cc22f7aa8aa63e2de4aa3c5c04cf5f7a8bb05a61cfe5fffde"
+    },
+    "memorycore-post-mortem": {
+      "version": "1.0.0",
+      "sha256": "9b36fa19a6c9ff2f0580d720b0cc4df7a7e1a48f2f2431c18b42d25af4a2e494"
+    },
+    "memorycore-save-diary": {
+      "version": "1.0.0",
+      "sha256": "e63232c772fae79854041030e3705a6b1dd2a11855da38b0cf8145155f3aa3ec"
+    },
+    "memorycore-session-briefing": {
+      "version": "1.0.0",
+      "sha256": "fd0c9c49245700f7101c68560a1dd7db5743d4a10c179372c891255f64066526"
+    },
+    "memorycore-song-creation": {
+      "version": "1.0.0",
+      "sha256": "b283267b7f433c0bdb912dae1761f973529305ad81d6a777561d5d4de6c11736"
+    },
+    "memorycore-topic-diary": {
+      "version": "1.0.0",
+      "sha256": "cd23dba52486e4b8138cb9ff702d07b0826d4b0f5d53eb723ca7fec677347f47"
+    },
+    "memorycore-video-generation": {
+      "version": "1.0.0",
+      "sha256": "98c108868eb8e27e276f15fd20bc94388e684eaacda2029cfea6b302d096bdf7"
+    },
+    "memorycore-work-plan": {
+      "version": "1.0.0",
+      "sha256": "87fe93ff6c132c335ef75cfc8671d57831620f0e79de62f4dc03e671b2ad68a7"
+    },
+    "receiving-code-review": {
+      "version": "1.0.0",
+      "sha256": "e5dd23be2d93f751c8b28d647c4b139754aedfe75648cd8e1100e47f5da0c3c5"
+    },
+    "requesting-code-review": {
+      "version": "1.0.0",
+      "sha256": "da21da5cdf7894945c3990bdea317b1be4e2cf553831d22027558ca45a6cc45b"
+    },
+    "skill-maintenance": {
+      "version": "1.0.1",
+      "sha256": "baf3f3e65d7dac94f615521a18d23c00a21444710631465e91bb44500a221961"
+    },
+    "subagent-driven-development": {
+      "version": "1.0.0",
+      "sha256": "249b79397489aaf48e90da699e777cd1f88073a85160c45594107242b7e5a5a0"
+    },
+    "systematic-debugging": {
+      "version": "1.0.0",
+      "sha256": "7c2628773e52f1687e74f9d802f2ea1c2cbae24ef5ca3fda0b8f21340f50d590"
+    },
+    "test-driven-development": {
+      "version": "1.0.0",
+      "sha256": "8e8772822d25e4dfc9295cf4526c6251a10458c7417ac50c4b42e5d9fc91e0b0"
+    },
+    "using-git-worktrees": {
+      "version": "1.0.0",
+      "sha256": "98dc7da4ead1fe3c523c7ac314082f1f85114ad5e6ec39d4426b4a7f76ed9d0c"
+    },
+    "using-superpowers": {
+      "version": "1.0.0",
+      "sha256": "bcdbc241f63b69c68e66b9168012dc703ef955ac381a955a72aa2c0f256495bc"
+    },
+    "verification-before-completion": {
+      "version": "1.0.0",
+      "sha256": "d8a53168f152b6163bd3447f7d4c20b6b4cddf6bd907f9aa5856b514c032db0e"
+    },
+    "writing-plans": {
+      "version": "1.0.0",
+      "sha256": "b96f84fcdd4fc87bf3264e960e7a423bf6d3612e2b3355b4d6cd5f61ef7fe45d"
+    },
+    "writing-skills": {
+      "version": "1.0.0",
+      "sha256": "9ca4cdbef07abe834a36aeed5434f0afed6d3679dab61041e0ba9cf9a99ea425"
+    }
+  }
+}
