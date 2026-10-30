@@ -16,6 +16,8 @@ python scripts/sync_skills.py --reason "Describe the improvement" --evidence "De
 
 Without `--push`, this only exports files and updates versions. Run `python -m unittest discover -s tests` to check the exporter. The publisher checks the destination, rejects recognizable credentials, refuses missing installed skills and unseen remote commits, and never force-pushes. Review changes before publishing. Credential detection is limited and does not replace review.
 
+On the original installation, Git currently authenticates as a different account without repository write access. Codex can publish through the connected GitHub app as the repository owner. The maintenance skill documents that fallback. The command above needs correct Git credentials for unattended CLI publication; no tokens are stored in this repository.
+
 ## Restore on another machine
 
 Copy the desired folders from `skills/` into your Codex user skills folder, normally `~/.codex/skills`. Review and merge `config/AGENTS.md` into your global `~/.codex/AGENTS.md`; never overwrite existing instructions blindly. MemoryCore adapters currently contain paths for the original Windows installation. Update those paths to the new user's memory root and initialize empty memory files before use. Do not copy another person's private memory.

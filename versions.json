@@ -133,8 +133,8 @@
       "sha256": "da21da5cdf7894945c3990bdea317b1be4e2cf553831d22027558ca45a6cc45b"
     },
     "skill-maintenance": {
-      "version": "1.0.1",
-      "sha256": "baf3f3e65d7dac94f615521a18d23c00a21444710631465e91bb44500a221961"
+      "version": "1.0.2",
+      "sha256": "06397e359672494c00e419ac4c957cad1ef7dbfafca6936a50117de506e6fc29"
     },
     "subagent-driven-development": {
       "version": "1.0.0",

@@ -60,3 +60,13 @@ Evidence: Default Windows code page failed to decode Unicode in five installed u
 Validation: All 42 skills validated in UTF-8 mode; maintenance skill revalidated
 
 - skill-maintenance 1.0.1
+
+## 2026-10-30T14:41:49+08:00
+
+Reason: Support authorized GitHub app publication when Git credentials lack access
+
+Evidence: Git push returned 403 for izzuddin-banan; connected GitHub owner successfully published collection
+
+Validation: Maintenance skill validated; 2 exporter tests passed; connected GitHub main publication confirmed
+
+- skill-maintenance 1.0.2

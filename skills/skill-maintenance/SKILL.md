@@ -21,7 +21,11 @@ For a supported improvement:
 python C:/Users/izzud/.codex/skills-repository/scripts/sync_skills.py --reason "Specific improvement" --evidence "Public-safe observed problem" --validation "Checks actually run" --push
 ```
 
-The script assigns versions by content and appends the change history. The standing user authorization permits this push without asking again. If authentication fails, remote history has unseen changes, validation fails, or there are conflicting edits, stop publication and report the exact issue; preserve local improvements. Never force-push or auto-resolve conflicting instructions. Inspect and integrate remote changes deliberately before retrying.
+The script assigns versions by content and appends the change history. The standing user authorization permits this push without asking again. This machine's Git credentials currently identify `izzuddin-banan`, which lacks write access to this repository. The connected GitHub app identifies the authorized owner `izzuddinbanan` and can publish instead. Prefer that authenticated connection until Git credentials are corrected; never ask for or print tokens.
+
+For connected-app publication, export without `--push`, review the exported diff, and use the GitHub tools to create a tree, commit with the current remote head as parent, and update main with the expected previous SHA and force=false. Preserve remote files using the current base tree. For an empty repository, initialize README through create_file first. Fetch the published branch afterward; preserve any unpublished local commits on a backup branch before aligning the local checkout with the verified remote branch.
+
+If no authorized authentication route exists, remote history has unseen changes, validation fails, or there are conflicting edits, stop publication and report the exact issue; preserve local improvements. Never force-push or auto-resolve conflicting instructions. Inspect and integrate remote changes deliberately before retrying.
 
 Review upstream changes when updating a named source or when an actual incompatibility warrants it. Fetch and inspect the diff, preserve personal adaptations, validate, then publish. Never blindly overwrite working local skills with upstream files.
 
