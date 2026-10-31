@@ -157,8 +157,8 @@
       "sha256": "bcdbc241f63b69c68e66b9168012dc703ef955ac381a955a72aa2c0f256495bc"
     },
     "verification-before-completion": {
-      "version": "1.0.0",
-      "sha256": "d8a53168f152b6163bd3447f7d4c20b6b4cddf6bd907f9aa5856b514c032db0e"
+      "version": "1.0.1",
+      "sha256": "7927d1497ce7d7c6eeb42464ce5055b70e118c7ff46766c2f440f636b13d8129"
     },
     "writing-plans": {
       "version": "1.0.0",

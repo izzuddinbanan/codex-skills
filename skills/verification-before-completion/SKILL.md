@@ -11,6 +11,13 @@ description: Use when about to claim work is complete, fixed, or passing, before
 
 **Violating the letter of this rule is violating the spirit of this rule.**
 
+## Android integration tests with existing device data
+
+- Before installation, compare the actual built APK versionCode/signing identity with the installed package, not just pubspec or build flags. Refuse an unintended downgrade or signing mismatch; use a matching/newer test build or a separate disposable test package/device.
+- Flutter `--no-uninstall` does not guarantee preservation: after an install error, Flutter may uninstall and retry. Do not rely on that flag as a backup or claim data was preserved solely because it was supplied.
+- If existing device data matters, stop the app and capture a verified, recoverable app-data backup before invoking an installer with an uninstall fallback. If backup is unavailable, use a disposable test target or ask before risking that data.
+- After the run, verify the expected data still exists. If an uninstall/data loss occurs, stop, disclose it, and check recovery evidence; never silently reseed and claim persistence passed.
+
 ## The Iron Law
 
 ```

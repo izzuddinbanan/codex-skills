@@ -70,3 +70,13 @@ Evidence: Git push returned 403 for izzuddin-banan; connected GitHub owner succe
 Validation: Maintenance skill validated; 2 exporter tests passed; connected GitHub main publication confirmed
 
 - skill-maintenance 1.0.2
+
+## 2026-10-31T11:53:39+08:00
+
+Reason: Guard Android test installs against data loss
+
+Evidence: Observed Flutter uninstall fallback after a version downgrade despite no-uninstall; no data-preservation claim can rely on that flag.
+
+Validation: Skill frontmatter valid; actual failure baseline; fresh-context scenario refused downgrade and required verified backup/signing checks.
+
+- verification-before-completion 1.0.1
